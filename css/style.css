@@ -80,7 +80,17 @@ html,body{
 #routeFinder input {
 
   width: 100%;
+.route-active line {
 
+  stroke-width: 3;
+
+}
+
+.route-inactive {
+
+  opacity: .25;
+
+}
   padding: 10px;
 
   margin-bottom: 10px;
@@ -98,5 +108,16 @@ html,body{
 #routeResults {
 
   margin-top: 15px;
+
+}
+.route-card {
+
+  margin-top: 10px;
+
+  padding: 10px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
 
 }
